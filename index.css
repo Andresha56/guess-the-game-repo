@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#conatiner{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(22, 20, 20);
+    color: aliceblue;
+    text-align: center;
+
+}
+#conatiner #game-conatiner{
+    text-align: center;
+    width: 90%;
+    margin:auto;
+}
+h1{
+    padding: 3rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+#conatiner #game-conatiner #game-con h2{
+    font-size: 2rem;
+    margin-bottom:2rem;
+}
+
+#conatiner #game-conatiner #game-con input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 20px !important;
+    margin: auto;
+}
+
+#conatiner #game-conatiner #game-con .btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(22, 20, 20);;
+    margin-bottom: 20px;
+    margin: auto;
+}
+#conatiner #game-conatiner #game-con .btn:hover{
+    background-color: rgb(175, 10, 43);
+    /* background-color: rgb(16, 88, 48); */
+    color: aliceblue;
+    transition: all 0.6s ease;
+}
+
+#conatiner #game-conatiner #ply-agin-btn{
+    display: none;
+    margin: auto;
+   
+}
+
+#conatiner #game-conatiner #game-con p{
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
